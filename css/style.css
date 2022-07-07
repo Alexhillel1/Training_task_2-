@@ -445,3 +445,67 @@ img {
 .testemonials-item img:first-child {
   margin-bottom: 10px;
 }
+
+.footer-nav-item h4 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--color-title);
+}
+
+.footer-nav-item a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-txt);
+}
+
+.footer-nav {
+  display: flex;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.footer-nav-list {
+  margin: 0 auto;
+  padding-right: 100px;
+}
+
+.footer-nav-list:last-child {
+  margin-right: 0;
+}
+
+.footer-bottom-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-txt);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer-bottom-item:nth-child(-n + 2) {
+  display: flex;
+}
+
+.footer-bottom-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.footer-soc-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 64px;
+}
+
+.footer-soc-item {
+  margin-right: 20px;
+}
+
+.footer-soc-item:last-child {
+  margin-right: 0;
+}
