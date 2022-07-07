@@ -484,6 +484,14 @@ img {
   margin-bottom: 20px;
 }
 
+.footer-boottom-item {
+  margin-right: 12px;
+}
+
+.footer-boottom-item:last-child {
+  margin-right: 0;
+}
+
 .footer-bottom-item:nth-child(-n + 2) {
   display: flex;
 }
