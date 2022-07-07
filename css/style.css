@@ -409,3 +409,39 @@ img {
 .info-three-list-item:nth-child(-n + 2) {
   padding-bottom: 32px;
 }
+
+.testemonials-item img {
+  display: inline-block;
+  height: 100%;
+}
+
+.testemonials {
+  text-align: center;
+  align-items: center;
+  background-color: var(--bg-main);
+}
+
+.testemonials-list {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.testemonials-item:last-child {
+  /* display: flex;
+  align-items: center; */
+  justify-content: center;
+}
+
+.testemonials-item h4 {
+  margin: 0 auto;
+  max-width: 768px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.62;
+  color: var(--color-title);
+  margin-bottom: 24px;
+}
+
+.testemonials-item img:first-child {
+  margin-bottom: 10px;
+}
